@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.feed {
+    background-color: black;
+    padding: 40px 200px;
+}
+.post{
+    width: 100%;
+    height: auto;
+    background: white;
+    margin-top: 40px;
+}
+.post-header{
+    display: flex;
+    margin-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 40px;
+    align-items: center; 
+}
+
+.post-header .name{
+    margin: 0px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.post-header .fa-solid {
+    margin-left: auto;
+    margin-right: 20px;
+}
+.post-img{
+    width: 100%; 
+    object-fit: cover;
+    border-top: solid .5px;
+    border-bottom: solid .5px;
+    border-color: grey;
+}
+.post-body{
+    width: auto;
+    padding: 10px;
+}
+.post-icons {
+    align-items: center;
+}
+.post-icons .fa-bookmark {
+    float: right;
+    padding-top: 6px;
+    padding-right: 10px
+}
